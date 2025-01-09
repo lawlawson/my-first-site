@@ -6,15 +6,15 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>Lawrence Narh-Lawson</h1>
-    <p>Email: lawrencen@hotmail.com</p>
+    <h1>Coding preferences</h1>
+    <p>Email: test@test.com</p>
     <p>
       Bio: Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum,
       molestias! Doloribus blanditiis tempore, maxime obcaecati voluptas aperiam
       fugiat maiores, debitis error accusamus numquam ullam sequi eaque vitae
       alias atque iste.
     </p>
-    <img src="medal.jpg" alt="" width="150px" />
+    <img src="ducky.jpg" alt="" width="150px" /><br /><br />
     <form action="">
       <label for="fname">First name:</label><br />
       <input type="text" id="fname" name="fname" /><br />
@@ -25,14 +25,26 @@
       <label for="tel">Telephone:</label><br />
       <input type="tel" id="tel" name="tel" /><br />
       <br />
-
+      <p>Which one of the following do you prefer?</p>
       <input type="radio" id="javascript" name="language" value="JavaScript" />
       <label for="javascript">JavaScript</label><br /><br />
+      <input type="radio" id="python" name="language" value="Python" />
+      <label for="python">Python</label><br /><br />
 
+      <label for="stack">Which one are you?</label>
+      <select name="stack" id="stack">
+        <option value="front">Frontend</option>
+        <option value="back">Backend</option>
+        <option value="full">Full Stack</option>
+      </select>
+      <br /><br />
       <label for="tarea">Please leave a comment:</label><br />
       <textarea id="tarea" name="tarea" rows="4" cols="50">
-This is a text area for you to type any information you want</textarea
-      ><br />
+        This is a text area for you to type any additional information you want
+        </textarea
+      >
+
+      <br /><br />
       <input type="submit" value="Submit" />
     </form>
   </body>
